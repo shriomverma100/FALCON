@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Install git
         run: apt-get update -qq && apt-get install -y -qq --no-install-recommends git ca-certificates
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Install the server
         working-directory: server
         run: pip install --root-user-action=ignore --no-cache-dir -e ".[dev]"
@@ -30,7 +30,7 @@ jobs:
     name: Console (types · unit tests · build)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v4
         with:
           node-version: 22
