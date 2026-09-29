@@ -10,7 +10,7 @@
 # X25519MLKEM768 group and the platform's own ML-KEM/ML-DSA code runs natively.
 
 # ---------------------------------------------------------------- console
-FROM node:22-alpine AS console
+FROM node:26-alpine AS console
 WORKDIR /build
 COPY console/package.json console/package-lock.json ./
 RUN npm ci --no-audit --no-fund
