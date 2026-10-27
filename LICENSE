@@ -1,1 +1,14 @@
-Copyright © 2026 [THETA172]. All rights reserved.
+FALCON: enterprise cryptographic discovery, quantum-risk analysis and post-quantum migration Tool
+Copyright (c) 2026 the team THETA172 . All rights reserved.
+
+This software and its documentation are proprietary. No licence is granted to use, copy,
+modify, or distribute them, in whole or in part, except:
+
+- evaluation and demonstration by anyone the THETA172 team has given access to this repository or
+  to a release bundle, and
+- as agreed in writing with the THETA172 team.
+
+Third-party components are used under their own licences; see THIRD-PARTY-NOTICES.txt in a
+release bundle and the software bill of materials (sbom.cdx.json).
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
